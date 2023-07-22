@@ -5,7 +5,7 @@ import json
 
 FILE = "/home/al/temp/spanish1.m4a"
 OUTPUT_FILE_TYPE = 'mp3'
-USE_CACHED_WHISPER = True
+USE_CACHED_WHISPER = False
 
 
 def do_whisper(file: str) -> dict:
